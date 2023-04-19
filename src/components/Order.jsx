@@ -1,8 +1,6 @@
-import "../styles/Order.scss";
-
 function Order() {
   return (
-    <div className="Order">
+    <div className="order">
       <p>
         <span>03.25.21</span>
         <span>6 articles</span>

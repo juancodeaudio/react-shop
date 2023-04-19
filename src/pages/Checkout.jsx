@@ -4,9 +4,9 @@ import "../styles/Checkout.scss";
 function Checkout() {
   return (
     <div class="Checkout">
-      <div class="Checkout-container">
-        <h1 class="title">My order</h1>
-        <div class="Checkout-content">
+      <div class="Checkout__container">
+        <h1 class="Checkout__title">My order</h1>
+        <div class="Checkout__content">
           <div class="order">
             <p>
               <span>03.25.21</span>

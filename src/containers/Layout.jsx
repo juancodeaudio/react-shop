@@ -1,5 +1,12 @@
+import { Header } from "../components/Header";
+
 function Layout(props) {
-  return <div className="Layout">{props.children}</div>;
+  return (
+    <div className="Layout">
+      <Header />
+      {props.children}
+    </div>
+  );
 }
 
 export { Layout };

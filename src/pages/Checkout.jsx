@@ -1,7 +1,11 @@
 import { OrderItem } from "../components/OrderItem";
+import { useContext } from "react";
+import { AppContext } from "../context/AppContext";
 import "../styles/Checkout.scss";
 
 function Checkout() {
+  const { state } = useContext(AppContext);
+
   return (
     <div class="Checkout">
       <div class="Checkout__container">
@@ -10,11 +14,13 @@ function Checkout() {
           <div class="order">
             <p>
               <span>03.25.21</span>
-              <span>6 articles</span>
+              <span>{state.cart.length} articles</span>
             </p>
-            <p>$560.00</p>
+            <p>${state.total}</p>
           </div>
-          <OrderItem />
+          {state.cart.map((product) => (
+            <OrderItem product={product} key={`orderItem-${product.id}`} />
+          ))}
         </div>
       </div>
     </div>

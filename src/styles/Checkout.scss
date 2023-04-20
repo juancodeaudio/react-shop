@@ -5,8 +5,7 @@
   height: 100vh;
   display: grid;
   place-items: center;
-  &__title {
-    font-size: var(--lg);
+  .title {
     margin-bottom: 40px;
   }
   &__container {

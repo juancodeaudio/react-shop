@@ -5,12 +5,12 @@ function Menu() {
     <div className="Menu">
       <ul>
         <li className="Menu__item">
-          <a href="/" className="Menu__title">
+          <a href="/orders" className="Menu__title">
             My orders
           </a>
         </li>
         <li className="Menu__item">
-          <a href="/">My account</a>
+          <a href="/account">My account</a>
         </li>
         <li className="Menu__item">
           <a href="/">Sign out</a>

@@ -3,7 +3,7 @@ import "../styles/MyAccount.scss";
 function MyAccount() {
   return (
     <div className="MyAccount">
-      <div className="MyAccount-container">
+      <div className="MyAccount__container">
         <h1 className="title">My account</h1>
         <form action="/" className="form">
           <div>

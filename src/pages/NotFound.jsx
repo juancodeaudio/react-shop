@@ -3,7 +3,7 @@ import "../styles/NotFound.scss";
 function NotFound() {
   return (
     <>
-      <h1>404 Error Page #2</h1>
+      <h1 className="notFound">UPS!</h1>
       <p className="zoom-area">
         <b>Page</b> not found.
       </p>
@@ -19,11 +19,7 @@ function NotFound() {
         </span>
       </section>
       <div className="link-container">
-        <a
-          target="_blank"
-          href="https://www.silocreativo.com/en/creative-examples-404-error-css/"
-          className="more-link"
-        >
+        <a href="/" className="more-link">
           Visit the original article
         </a>
       </div>

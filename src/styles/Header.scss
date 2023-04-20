@@ -14,6 +14,7 @@
     display: flex;
     .logo {
       width: 100px;
+      margin-bottom: 0;
       display: block;
     }
   }
@@ -48,9 +49,11 @@
     color: var(--very-light-pink);
     font-size: var(--sm);
     margin-right: 12px;
+    cursor: pointer;
   }
   &__navbar-shopping-cart {
     position: relative;
+    cursor: pointer;
   }
   &__navbar-shopping-cart div {
     width: 16px;
@@ -69,7 +72,7 @@
 }
 
 @media (max-width: 640px) {
-  .header {
+  .Header {
     &__icon {
       display: block;
     }

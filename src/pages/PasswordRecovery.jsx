@@ -3,7 +3,7 @@ import "../styles/PasswordRecovery.scss";
 function PasswordRecovery() {
   return (
     <div className="PasswordRecovery">
-      <div className="PasswordRecovery-container">
+      <div className="PasswordRecovery__container">
         <img src="./logos/logo_yard_sale.svg" alt="logo" className="logo" />
         <h1 className="title">Password recovery</h1>
         <p className="subtitle">

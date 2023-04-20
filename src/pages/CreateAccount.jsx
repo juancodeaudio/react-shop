@@ -3,8 +3,8 @@ import "../styles/CreateAccount.scss";
 function CreateAccount() {
   return (
     <div className="CreateAccount">
-      <div className="CreateAccount-container">
-        <h1 className="title">My account</h1>
+      <div className="CreateAccount__container">
+        <h1 className="CreateAccount__title">My account</h1>
         <form action="/" className="form">
           <div>
             <label for="name" className="label">
